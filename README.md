@@ -13,6 +13,8 @@
 On the small dataset best time achieved: 750ms
 On the public dataset best time achieved: 50800ms  
 
+**All the .cpp files were given by SIGMOD. The actual code of our implementation is in src/**  
+
 Specs  
 * CPU: Intel Core i5 7200U 2.5GHz 4 cores
 * RAM: 8GB DDR4
@@ -25,6 +27,8 @@ For example a query could be:
 `WHERE A.2=B.3 AND A.3=C.2 AND A.2=A.1 AND C.3 >1000`
 
 
+  
+  
  ## Compile and Run
 Compile: `make` will compile all the executables (unit tests and main executable)  
 
